@@ -1,0 +1,27 @@
+# Environment & secrets
+.env
+mcp/claude_desktop_config.json    
+# contains real API keys
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Test artifacts
+.coverage
+htmlcov/
+
+pr-review-agent1.2026-07-12.private-key.pem
+test.py

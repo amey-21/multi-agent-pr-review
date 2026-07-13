@@ -185,9 +185,9 @@ docker run -p 8000:8000 \
 
 ## Tech Stack
 
-**AI/Agent orchestration:** LangChain, LangGraph, MCP SDK, OpenAI (GPT-4.1-mini)
-**Static analysis:** Semgrep, Bandit, Ruff, Radon, pydocstyle, custom AST tooling
-**Backend:** FastAPI, Pydantic, PyGithub
-**Testing:** pytest, pytest-asyncio, pytest-mock
-**Deployment:** Docker (multi-stage build), Fly.io, GitHub Actions
+- **AI/Agent orchestration:** LangChain, LangGraph, MCP SDK, OpenAI (GPT-4.1-mini)
+- **Static analysis:** Semgrep, Bandit, Ruff, Radon, pydocstyle, custom AST tooling
+- **Backend:** FastAPI, Pydantic, PyGithub
+- **Testing:** pytest, pytest-asyncio, pytest-mock
+- **Deployment:** Docker (multi-stage build), Fly.io, GitHub Actions
 

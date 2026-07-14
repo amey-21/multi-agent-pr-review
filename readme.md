@@ -164,11 +164,6 @@ mcp dev mcp/server.py
 
 This opens the MCP Inspector for manual tool testing. For Claude Desktop integration, add an entry to `claude_desktop_config.json` pointing at `mcp/server.py`, using the **full path to your virtual environment's `python.exe`** rather than a bare `python` command.
 
-### Running tests
-
-```bash
-pytest -v
-```
 
 ### Docker
 
